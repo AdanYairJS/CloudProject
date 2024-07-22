@@ -1,4 +1,4 @@
-# Spotify App Clone 💻 
+# Spotify App Clone 🎧
 A spotify app clone build with reactjs and tailwindcss.
 
 # 💡About this project 
