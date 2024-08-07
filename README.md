@@ -3,7 +3,7 @@ A spotify app clone build with reactjs and tailwindcss.
 
 # 💡About this project 
 
-I'll updating soon...
+I'll updating soon... ... ...
 
 ## ⚡Technologies
 
