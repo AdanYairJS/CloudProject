@@ -3,7 +3,7 @@ A spotify app clone build with reactjs and tailwindcss.
 
 # 💡About this project 
 
-I'll updating soon... ... ...
+I built spotify clone project with React.js and Tailwindcss. In this project you will see home page, featured song lists and today's biggest hits. Whatever you want click any charts you'll go song list and you can see lots of songs in this charts or playing any song. Next time I'll develop this website and add lots of feature.
 
 ## ⚡Technologies
 
