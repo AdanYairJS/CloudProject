@@ -31,12 +31,12 @@ const Login = ({ setLoggedIn }) => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-800">
       <div className="bg-gray-900 p-6 rounded-lg shadow-md w-80">
-        <h2 className="text-white text-center mb-4">{isLogin ? 'Sign In' : 'Sign Up'}</h2>
+        <h2 className="text-white text-center mb-4">{isLogin ? 'Inicia sesión' : 'Regístrate'}</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
             name="username"
-            placeholder="Username"
+            placeholder="Usuario"
             value={formData.username}
             onChange={handleChange}
             className="block w-full px-4 py-2 mb-3 rounded bg-gray-700 text-white focus:outline-none"
@@ -44,7 +44,7 @@ const Login = ({ setLoggedIn }) => {
           <input
             type="password"
             name="password"
-            placeholder="Password"
+            placeholder="Contraseña"
             value={formData.password}
             onChange={handleChange}
             className="block w-full px-4 py-2 mb-3 rounded bg-gray-700 text-white focus:outline-none"
@@ -52,11 +52,11 @@ const Login = ({ setLoggedIn }) => {
           <button
             type="submit"
             className="w-full bg-green-600 py-2 rounded text-white hover:bg-green-500 transition">
-            {isLogin ? 'Sign In' : 'Sign Up'}
+            {isLogin ? 'Iniciar sesión' : 'Registrarme'}
           </button>
         </form>
         <p className="text-white text-center mt-4 cursor-pointer" onClick={toggleForm}>
-          {isLogin ? 'Don\'t have an account? Sign Up' : 'Already have an account? Sign In'}
+          {isLogin ? '¿No tienes una cuenta? Regístrate' : '¿Tienes una cuenta? Inicia sesión'}
         </p>
         {message && <p className="text-red-500 text-center mt-3">{message}</p>}
       </div>
