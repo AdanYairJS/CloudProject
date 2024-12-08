@@ -29,7 +29,12 @@ import img4 from './img4.jpg'
 import img5 from './img5.jpg'
 import img6 from './img6.jpg'
 import img7 from './img7.jpg'
-import img8 from './img8.jpg'
+import topGlobal from './topGlobal.jpg'
+import topMexico from './topMexico.png'
+import descubre from './descubre.png'
+import repeticion from './enRepeticion.png'
+import dj from './dj.png'
+import recuerda from './recuerda.png' 
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
@@ -41,6 +46,13 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import kurt from './kurt.png'
+import freddie from './freddie.png'
+import john from './john.png'
+import linkin from './linkin.png'
+import matt from './matt.png'
+import alex from './alex.png'
+import michael from './michael.png'
 
 export const assets = {
     bell_icon,
@@ -73,43 +85,43 @@ export const albumsData = [
     {   
         id:0,
         name: "Top 50 Global",
-        image: img8,
-        desc:"Your weekly update of the most played tracks",
+        image: topGlobal,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Top 50 India",
-        image: img9,
-        desc:"Your weekly update of the most played tracks",
+        name: "Top 50 México",
+        image: topMexico,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
-        image: img10,
-        desc:"Your weekly update of the most played tracks",
+        name: "En repetición",
+        image: repeticion,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#742a2a"
     },
     {   
         id:3,
-        name: "Trending Global",
-        image: img16,
-        desc:"Your weekly update of the most played tracks",
+        name: "Recuerda y repite",
+        image: recuerda,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
-        image: img11,
-        desc:"Your weekly update of the most played tracks",
+        name: "Descubre",
+        image: descubre,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#234e52"
     },
     {   
         id:5,
-        name: "Happy Favorites",
-        image: img15,
-        desc:"Your weekly update of the most played tracks",
+        name: "Spofity DJ",
+        image: dj,
+        desc:"Disfruta de este álbum creado solo para ti",
         bgColor:"#744210"
     }
 ]
@@ -117,66 +129,58 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Everlong",
+        image: kurt,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/Everlong-Kurt.mp3",
+        desc:"Cover creado con inteligencia artificial (Kurt Cobain)",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Hey Jude",
+        image: freddie,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/HeyJude-Freddie.mp3",
+        desc:"Cover creado con inteligencia artificial (Freddie Mercury)",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Chop Suey",
+        image: linkin,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/ChopSuey-Linkin.mp3",
+        desc:"Cover creado con inteligencia artificial (Linkin Park)",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Street Spirit",
+        image: matt,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/StreetSpirit-Matt.mp3",
+        desc:"Cover creado con inteligencia artificial (Matt Bellamy)",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Bring Me To Life",
+        image: michael,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/BringMeToLife-Michael.mp3",
+        desc:"Cover creado con inteligencia artificial (Michael Jackson)",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Creep",
+        image: alex,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/Creep-Alex.mp3",
+        desc:"Cover creado con inteligencia artificial (Alex Turner)",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Wet Sand",
+        image: john,
+        file:"https://d1tn7rpy3hjo1p.cloudfront.net/WetSand-John.mp3",
+        desc:"Cover creado con inteligencia artificial (John Frusciante)",
         duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
     }
 ]

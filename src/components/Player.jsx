@@ -15,7 +15,8 @@ const Player = () => {
 
         <div>
           <p>{track.name}</p>
-          <p>{track.desc.slice(0, 12)}</p>
+          {/* <p>{track.desc.slice(0, 12)}</p> */}
+          <p>AI Cover</p>
         </div>
       </div>
 
